@@ -35,15 +35,13 @@ export default function About() {
 
       <p className="mb-3">
         In my work, I love using{" "}
-        <span className="italic font-medium">Clean Architecture</span> and
-        <span className="italic font-medium">
-          Domain-Driven Design (DDD)
-        </span>{" "}
+        <span className="italic font-medium">Clean Architecture</span> and{" "}
+        <span className="italic font-medium">Domain-Driven Design (DDD)</span>{" "}
         principles. <span className="italic font-medium">Clean coding</span> and{" "}
         <span className="italic font-medium">
           Test-Driven Development (TDD)
         </span>{" "}
-        are very important to me—they help me create reliable and maintainable
+        are very important to me — they help me create reliable and maintainable
         software.
       </p>
 
