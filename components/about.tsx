@@ -1,12 +1,12 @@
-"use client";
+"use client"
 
-import React from "react";
-import SectionHeading from "./section-heading";
-import { motion } from "framer-motion";
-import { useSectionInView } from "@/lib/hooks";
+import React from "react"
+import SectionHeading from "./section-heading"
+import { motion } from "framer-motion"
+import { useSectionInView } from "@/lib/hooks"
 
 export default function About() {
-  const { ref } = useSectionInView("About");
+  const { ref } = useSectionInView("About")
 
   return (
     <motion.section
@@ -19,31 +19,39 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        I was born and raised in South Korea, where I got my education and
+        started my journey as a web developer. An exciting project with Hyundai
+        Motor brought me to the UK, and now I happily live and work here as a
+        full-stack developer.
       </p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+      <p className="mb-3">
+        I&apos;ve been in web programming since 2000, and it&apos;s been amazing
+        to see and be part of the evolution of web applications. My career has
+        taken me through a variety of projects, from large-scale ERP systems to
+        mobile investment apps for startups, with a strong focus on .NET-based
+        projects.
+      </p>
+
+      <p className="mb-3">
+        In my work, I love using{" "}
+        <span className="italic font-medium">Clean Architecture</span> and
+        <span className="italic font-medium">
+          Domain-Driven Design (DDD)
+        </span>{" "}
+        principles. <span className="italic font-medium">Clean coding</span> and{" "}
+        <span className="italic font-medium">
+          Test-Driven Development (TDD)
+        </span>{" "}
+        are very important to me—they help me create reliable and maintainable
+        software.
+      </p>
+
+      <p className="mb-3">
+        When I&apos;m not coding, I enjoy watching English Premier League (EPL)
+        matches. I also love attending developer conferences and diving into a
+        good book, whether it&apos;s a novel or a self-improvement guide.
       </p>
     </motion.section>
-  );
+  )
 }
