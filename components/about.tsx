@@ -5,6 +5,11 @@ import SectionHeading from "./section-heading"
 import { motion } from "framer-motion"
 import { useSectionInView } from "@/lib/hooks"
 
+function calculateYears(startYear: number): number {
+  const currentYear = new Date().getFullYear()
+  return currentYear - startYear
+}
+
 export default function About() {
   const { ref } = useSectionInView("About")
 
@@ -19,36 +24,47 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I was born and raised in South Korea, where I got my education and
-        started my journey as a web developer. An exciting project with Hyundai
-        Motor brought me to the UK, and now I happily live and work here as a
-        full-stack developer.
-      </p>
-
-      <p className="mb-3">
-        I&apos;ve been in web programming since 2000, and it&apos;s been amazing
-        to see and be part of the evolution of web applications. My career has
-        taken me through a variety of projects, from large-scale ERP systems to
-        mobile investment apps for startups, with a strong focus on .NET-based
+        My name is Jake Ryu. I was born and raised in South Korea, where I began
+        my journey as a software developer. It&apos;s been{" "}
+        {`${calculateYears(2000)}`} years since I started. After gaining six
+        years of experience in Korea, I moved to the UK to help build the local
+        systems for Hyundai Motor Company. I have since settled here and am
+        currently working as a Lead Developer at{" "}
+        <a href="https://www.barnett-waddingham.co.uk/" target="_blank">
+          Barnett Waddingham
+        </a>
+        , a financial services company specializing in workplace pensions. I
+        primarily work with <span className="italic font-medium">.NET</span> and{" "}
+        <span className="italic font-medium">React</span> to create amazing
         projects.
       </p>
 
       <p className="mb-3">
-        In my work, I love using{" "}
-        <span className="italic font-medium">Clean Architecture</span> and{" "}
-        <span className="italic font-medium">Domain-Driven Design (DDD)</span>{" "}
-        principles. <span className="italic font-medium">Clean coding</span> and{" "}
-        <span className="italic font-medium">
-          Test-Driven Development (TDD)
-        </span>{" "}
-        are very important to me — they help me create reliable and maintainable
-        software.
+        I have a keen interest in web and solution architecture. When designing
+        backends, a solid architecture is crucial for providing stable services.
+        The world of software presented through the browser also fascinates me.
+        While the web has made tremendous strides in the past, it continues to
+        evolve rapidly. For instance, the choice of Next.js to overcome some of
+        React’s limitations is a testament to the fast pace of web development.
+        In this ever-growing field, I strive to stay current with the latest
+        technology trends and best practices.
       </p>
 
       <p className="mb-3">
-        When I&apos;m not coding, I enjoy watching English Premier League (EPL)
-        matches. I also love attending developer conferences and diving into a
-        good book, whether it&apos;s a novel or a self-improvement guide.
+        I believe that developers have a responsibility to implement
+        requirements accurately and efficiently. We all know the importance of
+        tests in enhancing code quality and minimizing errors. This is why I
+        frequently utilise methodologies like{" "}
+        <span className="italic font-medium">Clean Architecture</span> and{" "}
+        <span className="italic font-medium">Domain-Driven Design (DDD)</span>.
+        Clean Architecture simplifies testing by managing dependencies in a
+        single direction, while DDD enhances the verification of business logic
+        through clear domain models. These approaches help me write robust and
+        maintainable code.
+      </p>
+      <p className="mb-3">
+        When I’m not coding, I enjoy watching English Premier League (EPL)
+        matches. I also love reading novels and self-improvement books.
       </p>
     </motion.section>
   )
