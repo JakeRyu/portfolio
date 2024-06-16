@@ -1,10 +1,10 @@
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import React from "react"
+import { CgWorkAlt } from "react-icons/cg"
+import { FaReact } from "react-icons/fa"
+import { LuGraduationCap } from "react-icons/lu"
+import corpcommentImg from "@/public/corpcomment.png"
+import rmtdevImg from "@/public/rmtdev.png"
+import wordanalyticsImg from "@/public/wordanalytics.png"
 
 export const links = [
   {
@@ -31,7 +31,7 @@ export const links = [
     name: "Contact",
     hash: "#contact",
   },
-] as const;
+] as const
 
 export const experiencesData = [
   {
@@ -58,7 +58,7 @@ export const experiencesData = [
     icon: React.createElement(FaReact),
     date: "2021 - present",
   },
-] as const;
+] as const
 
 export const projectsData = [
   {
@@ -82,26 +82,50 @@ export const projectsData = [
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
   },
-] as const;
+] as const
 
-export const skillsData = [
+export const backendSkillsData = [
+  "C#",
+  ".NET",
+  "ASP.NET",
+  "RESTful API",
+  "Fluent Validation",
+  "CQRS",
+  "MediatR",
+  "OpenAPI",
+  "Entity Framework",
+  "Dapper",
+  "linq2db",
+  "SQL",
+  "SQL Server",
+  "Azure Function",
+  "Azure Feature Toggle",
+  "Azure DevOps",
+  "Jira",
+  "AWS",
+  "Docker",
+  "Git",
+  "CI/CD",
+  "xUnit",
+  "Moq",
+] as const
+
+export const frontendkSkillsData = [
   "HTML",
   "CSS",
   "JavaScript",
   "TypeScript",
   "React",
+  "Context API",
+  "Reducer",
   "Next.js",
   "Node.js",
-  "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
   "GraphQL",
   "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
-] as const;
+  "Jest",
+  "Testing Libarary",
+] as const
