@@ -1,25 +1,10 @@
 import React from "react"
-import { CgWorkAlt } from "react-icons/cg"
-import { FaPoundSign, FaReact } from "react-icons/fa"
-import {
-  LuCar,
-  LuClapperboard,
-  LuGraduationCap,
-  LuPiggyBank,
-} from "react-icons/lu"
-import { LiaPoundSignSolid } from "react-icons/lia"
+import { LuCar, LuClapperboard } from "react-icons/lu"
 import { TbCurrencyPound } from "react-icons/tb"
-import {
-  PiLockersBold,
-  PiLockersLight,
-  PiLockersThin,
-  PiRadio,
-} from "react-icons/pi"
-import corpcommentImg from "@/public/corpcomment.png"
+import { PiLockersBold, PiRadio } from "react-icons/pi"
 import pssImg from "@/public/pension-self-service.png"
-import rmtdevImg from "@/public/rmtdev.png"
-import wordanalyticsImg from "@/public/wordanalytics.png"
-import { BsCurrencyPound } from "react-icons/bs"
+import adserveStudioImg from "@/public/adserve-studio.png"
+import moenyboxAppImg from "@/public/moneybox-app.png"
 
 export const links = [
   {
@@ -77,7 +62,7 @@ export const experiencesData = [
     title: "Senior Engineer",
     location: "Moneybox (London, UK)",
     description:
-      "Moneybox is a promising fintech startup based in London. The process of developing and deploying new features is very fast, and error handling and feedback implementation are also very quick. This is due to a well-established CI/CD pipeline and a strong agile culture. As a platform developer, I developed modules that process various calculations in batch, such as interest calculations. Fortunately, I had the opportunity to participate in the entire process of designing and implementing the new platform, and I felt a great sense of accomplishment in implementing clean architecture.",
+      "Moneybox is a promising fintech startup based in London. The process of developing and deploying new features is very fast, and error handling and feedback implementation are also very quick. This is due to a well-established CI/CD pipeline and a strong agile culture. As a platform developer, I developed modules that process various calculations in batch, such as compound interest calculations. Fortunately, I had the opportunity to participate in the entire process of designing and implementing the new platform, and I felt a great sense of accomplishment in implementing clean architecture.",
     icon: React.createElement(TbCurrencyPound),
     date: "2018",
   },
@@ -85,7 +70,7 @@ export const experiencesData = [
     title: "Senior Software Engineer",
     location: "Adserve (Homebased, UK)",
     description:
-      "Adserve has a long-standing program that automatically schedules radio ads, which has been used by many radio stations across the UK. When I joined, the team was in the process of redeveloping the Windows application into a new React web application. I led the design of the backend APIs and created React components, such as grids, on the frontend. This role provided me with extensive full-stack experience and a great opportunity to learn new AWS services.",
+      "Adserve has a long-standing program that automatically schedules radio ads, which has been used by over 300 of the largest brands in European media. When I joined, the team was in the process of redeveloping the Windows application into a new React web application. I led the design of the backend APIs and created React components, such as grids, on the frontend. This role provided me with extensive full-stack experience and a great opportunity to learn new AWS services.",
     icon: React.createElement(PiRadio),
     date: "2020",
   },
@@ -104,22 +89,22 @@ export const projectsData = [
     title: "Pension self-service",
     description:
       "A website for pension members to choose their preferred name and access all pension information. I provided the API and rebranded old webpages.",
-    tags: ["ASP.NET Web API", "React", "Azure", "Terraform"],
+    tags: ["ASP.NET Web API", "React", "Azure", "Terraform", "SQL Server"],
     imageUrl: pssImg,
   },
   {
-    title: "rmtDev",
+    title: "Adserve Studio",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A collection of SPAs offers comprehensive audio planning, trafficking, and revenue optimization. I worked as a full-stack developer.",
+    tags: ["ASP.NET Web API", "React", "AWS", "PostgreSQL"],
+    imageUrl: adserveStudioImg,
   },
   {
-    title: "Word Analytics",
+    title: "Moneybox App",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Moneybox is a mobile app that simplifies saving and investing. As a platform developer, I created modules for batch processing calculations.",
+    tags: ["ASP.NET Web API", "Native App", "Azure", "SQL Server"],
+    imageUrl: moenyboxAppImg,
   },
 ] as const
 
@@ -135,11 +120,11 @@ export const backendSkillsData = [
   "Entity Framework",
   "Dapper",
   "linq2db",
-  "SQL",
   "SQL Server",
+  "PostgreSQL",
   "Azure Function",
-  "Azure Feature Toggle",
   "Azure DevOps",
+  "Feature Flag",
   "Jira",
   "AWS",
   "Terraform",
@@ -153,6 +138,7 @@ export const backendSkillsData = [
 export const frontendkSkillsData = [
   "HTML",
   "CSS",
+  "SASS",
   "JavaScript",
   "TypeScript",
   "React",
@@ -161,11 +147,11 @@ export const frontendkSkillsData = [
   "Next.js",
   "Node.js",
   "Tailwind",
+  "Bootstrap",
   "MongoDB",
   "GraphQL",
   "Apollo",
   "Express",
-  "PostgreSQL",
   "Jest",
   "Testing Libarary",
 ] as const
