@@ -25,13 +25,12 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         My name is Jake Ryu. I was born and raised in South Korea, where I began
-        my journey as a software developer. With {`${calculateYears(2000)}`}{" "}
-        years of experience in the field, I have honed my skills and expertise
-        across various technologies and projects. After gaining six years of
-        experience in Korea, I moved to the UK to help build the local systems
-        for{" "}
+        my journey as a software developer. With 20+ years of experience in the
+        field, I have honed my skills and expertise across various technologies
+        and projects. After gaining six years of experience in Korea, I moved to
+        the UK to help build the local systems for{" "}
         <a
-          className="italic font-bold"
+          className="italic font-medium"
           href="https://www.hyundai.com/uk/en.html"
           target="_blank"
         >
@@ -40,7 +39,7 @@ export default function About() {
         . I have since settled here and am currently working as a Lead Developer
         at{" "}
         <a
-          className="italic font-bold"
+          className="italic font-medium"
           href="https://www.barnett-waddingham.co.uk/"
           target="_blank"
         >
