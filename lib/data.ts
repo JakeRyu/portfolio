@@ -16,6 +16,7 @@ import {
   PiRadio,
 } from "react-icons/pi"
 import corpcommentImg from "@/public/corpcomment.png"
+import pssImg from "@/public/pension-self-service.png"
 import rmtdevImg from "@/public/rmtdev.png"
 import wordanalyticsImg from "@/public/wordanalytics.png"
 import { BsCurrencyPound } from "react-icons/bs"
@@ -100,11 +101,11 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Pension self-service",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A website for pension members to choose their preferred name and access all pension information. I provided the API and rebranded old webpages.",
+    tags: ["ASP.NET Web API", "React", "Azure", "Terraform"],
+    imageUrl: pssImg,
   },
   {
     title: "rmtDev",
@@ -130,7 +131,7 @@ export const backendSkillsData = [
   "Fluent Validation",
   "CQRS",
   "MediatR",
-  "OpenAPI",
+  "OpenAPI Spec",
   "Entity Framework",
   "Dapper",
   "linq2db",
@@ -141,6 +142,7 @@ export const backendSkillsData = [
   "Azure DevOps",
   "Jira",
   "AWS",
+  "Terraform",
   "Docker",
   "Git",
   "CI/CD",
