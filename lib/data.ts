@@ -7,6 +7,7 @@ import adserveStudioImg from "@/public/adserve-studio.png"
 import moenyboxAppImg from "@/public/moneybox-app.png"
 import featureFlagsImg from "@/public/feature-flags.png"
 import retroBoardImg from "@/public/retro-board.png"
+import pledgeServiceImg from "@/public/pledge-service.png"
 
 export const links = [
   {
@@ -121,6 +122,13 @@ export const projectsData = [
       "Moneybox is a mobile app that simplifies saving and investing. As a platform developer, I created modules for batch processing calculations.",
     tags: ["ASP.NET Web API", "Native App", "Azure", "SQL Server"],
     imageUrl: moenyboxAppImg,
+  },
+  {
+    title: "Pledge Service Integration",
+    description:
+      "Backend lead. Integrated a third-party 'plant a tree' pledge triggered when members opt out of paper communications. Azure Functions with persistent retry.",
+    tags: ["Azure Functions", "ASP.NET Core"],
+    imageUrl: pledgeServiceImg,
   },
 ] as const
 

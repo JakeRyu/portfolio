@@ -46,14 +46,15 @@ export default function About() {
       </p>
 
       <p className="mb-3">
-        I believe in the responsibility of developers to implement requirements
-        accurately and efficiently. Quality assurance through testing is
-        paramount in my development process. Utilising methodologies like{" "}
+        I value clean code, rigorous testing, and pragmatic modernisation —
+        replacing slower manual processes with faster, more reliable software,
+        and shipping it in a way the business can actually trust. Using{" "}
         <span className="italic font-medium">Clean Architecture</span> and{" "}
         <span className="italic font-medium">Domain-Driven Design (DDD)</span>,
-        I manage dependencies effectively and verify business logic through
-        clear domain models. These approaches enable me to write robust,
-        maintainable, and scalable code.
+        I manage dependencies cleanly and verify business logic through clear
+        domain models. What I aim to leave behind is not just shipped features,
+        but patterns, standards, and infrastructure that other teams can build
+        on.
       </p>
 
       <p className="mb-3">
