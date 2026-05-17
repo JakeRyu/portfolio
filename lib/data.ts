@@ -162,3 +162,16 @@ export const frontendkSkillsData = [
   "Testing Library",
   "Cypress",
 ] as const
+
+export const aiToolsData = [
+  "Claude Code",
+  "OpenAI Codex",
+  "Google Gemini",
+  "NotebookLM",
+  "GitHub Copilot",
+] as const
+
+export const areasOfInterestData = [
+  "Kubernetes",
+  "Production microservices operations",
+] as const
