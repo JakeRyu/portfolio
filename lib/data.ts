@@ -5,6 +5,8 @@ import { PiLockersBold, PiRadio } from "react-icons/pi"
 import pssImg from "@/public/pension-self-service.png"
 import adserveStudioImg from "@/public/adserve-studio.png"
 import moenyboxAppImg from "@/public/moneybox-app.png"
+import featureFlagsImg from "@/public/feature-flags.png"
+import retroBoardImg from "@/public/retro-board.png"
 
 export const links = [
   {
@@ -85,6 +87,24 @@ export const experiencesData = [
 ] as const
 
 export const projectsData = [
+  {
+    title: "Feature Toggle Platform",
+    description:
+      "Sole developer. Rolled out feature toggles across the entire pension administration solution, enabling safe and targeted releases.",
+    tags: [
+      ".NET Framework 4.7.2 – .NET 8",
+      "Azure App Configuration",
+      "Feature Flags",
+    ],
+    imageUrl: featureFlagsImg,
+  },
+  {
+    title: "Team Retrospective Board",
+    description:
+      "A custom retro board I built solo when our Trello hit licence limits. AI-assisted development with Claude Code, applied responsibly.",
+    tags: ["Next.js", "Cosmos DB", "React", "Claude Code"],
+    imageUrl: retroBoardImg,
+  },
   {
     title: "Pension self-service",
     description:
