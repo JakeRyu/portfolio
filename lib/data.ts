@@ -206,3 +206,21 @@ export const publicationsData = [
       "Articles introducing ASP.NET Core to a leading South Korean software magazine.",
   },
 ] as const
+
+export const certificationsData = [
+  {
+    title: "Award in Pension Essentials",
+    year: "2024",
+    summary: "UK pensions industry foundational certification.",
+  },
+  {
+    title: "Microsoft Azure Developer Associate",
+    year: "2022",
+    summary: "Microsoft Azure cloud development certification.",
+  },
+  {
+    title: "AWS Cloud Practitioner",
+    year: "2021",
+    summary: "Amazon Web Services foundational cloud certification.",
+  },
+] as const
