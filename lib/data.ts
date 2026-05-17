@@ -76,9 +76,9 @@ export const experiencesData = [
   },
   {
     title: "Lead Developer",
-    location: "Barnett Waddingham (London, UK)",
+    location: "Barnett Waddingham (Amersham, UK)",
     description:
-      "Barnett Waddingham is a comprehensive financial services provider that specializes in pensions and financial risk management for businesses. I lead the design and implementation of APIs and have set API development standards to ensure consistency and best practices. I have also introduced event-driven architecture to improve system scalability, decoupling, and real-time data processing. We are actively adopting Azure services, including App Configuration, Function Apps, and Service Bus, with Feature Flags being a notable example. In addition to technical contributions, I focus on improving development processes and have led projects from requirement analysis and architectural design to development, testing, and deployment. I am also working to establish a culture of rigorous testing and thorough API documentation.",
+      "Barnett Waddingham (part of Howden since 2025) is a comprehensive financial services provider that specializes in pensions and financial risk management for businesses. I lead the design and implementation of APIs and have set API development standards to ensure consistency and best practices. I have also introduced event-driven architecture to improve system scalability, decoupling, and real-time data processing. We are actively adopting Azure services, including App Configuration, Function Apps, and Service Bus, with Feature Flags being a notable example. In addition to technical contributions, I focus on improving development processes and have led projects from requirement analysis and architectural design to development, testing, and deployment. I am also working to establish a culture of rigorous testing and thorough API documentation.",
     icon: React.createElement(TbCurrencyPound),
     date: "2021",
   },
