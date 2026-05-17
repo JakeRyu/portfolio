@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "Jake Ryu | Portfolio",
   description:
-    "Jake is an application archiect and full-stack developer with .NET, React and Nextjs.",
+    "Jake is an application architect and full-stack developer with .NET, React and Nextjs.",
 }
 
 export default function RootLayout({

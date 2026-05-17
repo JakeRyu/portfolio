@@ -114,7 +114,7 @@ export const backendSkillsData = [
   "RESTful API",
   "DDD",
   "TDD",
-  "Clean Architecutre",
+  "Clean Architecture",
   "Microservices",
   "CQRS",
   "MediatR",
@@ -160,5 +160,5 @@ export const frontendkSkillsData = [
   "Apollo",
   "Express",
   "Jest",
-  "Testing Libarary",
+  "Testing Library",
 ] as const

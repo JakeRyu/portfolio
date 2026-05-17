@@ -68,6 +68,7 @@ export default function Intro() {
           architectures and RESTful APIs.
         </p>
         <p>
+          {" "}
           I’m also passionate about frontend development with React and Next.js,
           creating user-friendly web apps.
         </p>
