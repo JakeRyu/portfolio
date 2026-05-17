@@ -14,10 +14,6 @@ export const links = [
     hash: "#home",
   },
   {
-    name: "About",
-    hash: "#about",
-  },
-  {
     name: "Projects",
     hash: "#projects",
   },
@@ -30,8 +26,8 @@ export const links = [
     hash: "#experience",
   },
   {
-    name: "Contact",
-    hash: "#contact",
+    name: "Publications",
+    hash: "#publications",
   },
 ] as const
 
@@ -194,4 +190,19 @@ export const aiToolsData = [
 export const areasOfInterestData = [
   "Kubernetes",
   "Production microservices operations",
+] as const
+
+export const publicationsData = [
+  {
+    title: "Pro ASP.NET MVC 5 (Korean translation)",
+    year: "2014",
+    summary:
+      "First Korean-language ASP.NET MVC 5 book, with the ASP.NET User Group in South Korea.",
+  },
+  {
+    title: "ASP.NET REBOOT — ASP.NET Core series",
+    year: "2015",
+    summary:
+      "Articles introducing ASP.NET Core to a leading South Korean software magazine.",
+  },
 ] as const
