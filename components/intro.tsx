@@ -61,13 +61,13 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <p className="fond-bold">
-          Hello! I’m Jake, a software developer specializing in .NET backend
-          architectures and RESTful APIs.
+          Hello! I’m Jake, a Lead Developer at a UK financial services
+          consultancy.
         </p>
         <p>
           {" "}
-          I’m also passionate about frontend development with React and Next.js,
-          creating user-friendly web apps.
+          I move comfortably between .NET backend architectures with Clean
+          Architecture and DDD, and frontend work with React and Next.js.
         </p>
       </motion.h1>
 
