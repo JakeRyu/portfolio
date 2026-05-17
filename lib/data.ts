@@ -89,7 +89,7 @@ export const projectsData = [
     title: "Pension self-service",
     description:
       "A website for pension members to choose their preferred name and access all pension information. I provided the API and rebranded old webpages.",
-    tags: ["ASP.NET Web API", "React", "Azure", "Terraform", "SQL Server"],
+    tags: ["ASP.NET Web API", "React", "Azure", "Terraform"],
     imageUrl: pssImg,
   },
   {
