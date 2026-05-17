@@ -36,48 +36,72 @@ export const experiencesData = [
   {
     title: "Web Developer",
     location: "Seoul, South Korea",
+    chapter: "The apprentice chapter",
     description:
-      "I began my career as a web developer, participating in various projects and gaining extensive knowledge in web development, databases, and Windows servers. One of the most memorable projects was the ERP project for the largest duty-free shop in Korea, Lotte Duty Free Shop. I primarily used technologies such as ASP.NET, IIS, MS SQL Server, and ActiveX.",
+      "Started out working broadly across web development, databases, and Windows servers — gaining breadth before depth. The most memorable delivery was an ERP project for Lotte Duty Free Shop, Korea's largest duty-free retailer, built with ASP.NET, IIS, MS SQL Server, and ActiveX.",
+    takeawayLabel: "What I took forward",
+    takeaway:
+      "breadth across web, databases, and servers — and the confidence that comes from shipping production systems for real clients from day one.",
     icon: React.createElement(LuClapperboard),
     date: "2000",
   },
   {
     title: "Application Architect",
     location: "Hyundai Motor UK",
+    chapter: "The foundation chapter",
     description:
-      "I worked at Hyundai Motor UK head office for 11 years, where I was involved in both local systems and global projects. During that time, I worked on numerous projects, including developing a vehicle registration system in collaboration with the DVLA. For the first time, I introduced a RESTful API for the import center inventory management mobile project. Local projects were based on .NET, while global projects involved SAP ERP and Oracle CRM. This experience provided me with a deep understanding of system integration and architecture.",
+      "Eleven years of full-cycle architecture across the UK dealer network, marketing, sales, finance, and import operations — many projects replacing paper-based processes with digital ones. Local stack was .NET; global projects integrated SAP ERP and Oracle CRM. Notable deliveries included a vehicle registration system in collaboration with the DVLA and a mobile inventory app for the import centre, for which I introduced the team's first RESTful API.",
+    takeawayLabel: "What I took forward",
+    takeaway:
+      "a deep instinct for translating business problems into technical solutions, and an early conviction that good software is measured by how it changes the work, not how clever the code is.",
     icon: React.createElement(LuCar),
     date: "2006",
   },
   {
     title: "Software Developer",
     location: "ByBox (Homebased, UK)",
+    chapter: "The discipline chapter",
     description:
-      "I became a full-stack developer at ByBox, where I started using React. I developed solutions that brought innovation to the logistics system. This involved managing a network of electric cabinets nationwide, where delivery drivers use smartphones to deposit or retrieve items from the cabinets. Most importantly, the developers were truly dedicated to testing. I learned a lot about TDD (Test-Driven Development) and BDD (Behavior-Driven Development), for which I am very grateful.",
+      "My first role in a microservice-based environment. ByBox runs a nationwide network of electronic lockers where delivery drivers deposit and collect items via mobile. I worked full-stack across distributed services — backend in ASP.NET Web API with NServiceBus for inter-service messaging, and a React + Redux operations dashboard. The team's strict TDD discipline and SpecFlow specifications, written with business analysts before any code, drove every behavioural test end-to-end.",
+    takeawayLabel: "What I took forward",
+    takeaway:
+      "testing as a mindset, not a phase — and the SpecFlow/BDD habit of writing behaviour with business analysts before writing code.",
     icon: React.createElement(PiLockersBold),
     date: "2017",
   },
   {
     title: "Senior Engineer",
     location: "Moneybox (London, UK)",
+    chapter: "The cloud and scale chapter",
     description:
-      "Moneybox is a promising fintech startup based in London. The process of developing and deploying new features is very fast, and error handling and feedback implementation are also very quick. This is due to a well-established CI/CD pipeline and a strong agile culture. As a platform developer, I developed modules that process various calculations in batch, such as compound interest calculations. Fortunately, I had the opportunity to participate in the entire process of designing and implementing the new platform, and I felt a great sense of accomplishment in implementing clean architecture.",
+      "At Moneybox I built the backend of a regulated UK savings and investment platform on Azure, where every line of code touched customer money. I led batch interest calculation engines for 95-Day Notice Accounts and Cash Lifetime ISAs, handling edge cases like early withdrawals and ISA allowance boundaries. Built on Azure Event Hub and Azure SQL with detailed error logging and recoverable failure handling, deployed through TeamCity and Octopus.",
+    takeawayLabel: "What I took forward",
+    takeaway:
+      "large-volume batch processing, detailed error logging, recoverable failure handling, and a healthy respect for regulated environments where silent failures aren't an option.",
     icon: React.createElement(TbCurrencyPound),
     date: "2018",
   },
   {
     title: "Senior Software Engineer",
     location: "Adserve (Homebased, UK)",
+    chapter: "The product engineering chapter",
     description:
-      "Adserve has a long-standing program that automatically schedules radio ads, which has been used by over 300 of the largest brands in European media. When I joined, the team was in the process of redeveloping the Windows application into a new React web application. I led the design of the backend APIs and created React components, such as grids, on the frontend. This role provided me with extensive full-stack experience and a great opportunity to learn new AWS services.",
+      "Full-stack delivery for Adserve Studio, a global supply-side advertising platform. The team's deliberate policy of avoiding third-party component libraries was an unusual constraint — every React component (sortable/filterable data grids, foldable accordions, heatmap grids) had to be built from scratch with hooks, context, and reducers. Backend on ASP.NET Core with Clean Architecture and CQRS, deployed on AWS via Jenkins.",
+    takeawayLabel: "What I took forward",
+    takeaway:
+      "deep practical experience in component design, state management with Context API and reducers, and an appreciation for the trade-offs in choosing build-vs-buy at the component level.",
     icon: React.createElement(PiRadio),
     date: "2020",
   },
   {
     title: "Lead Developer",
     location: "Barnett Waddingham (Amersham, UK)",
+    chapter: "The leadership and modernisation chapter",
     description:
-      "Barnett Waddingham (part of Howden since 2025) is a comprehensive financial services provider that specializes in pensions and financial risk management for businesses. I lead the design and implementation of APIs and have set API development standards to ensure consistency and best practices. I have also introduced event-driven architecture to improve system scalability, decoupling, and real-time data processing. We are actively adopting Azure services, including App Configuration, Function Apps, and Service Bus, with Feature Flags being a notable example. In addition to technical contributions, I focus on improving development processes and have led projects from requirement analysis and architectural design to development, testing, and deployment. I am also working to establish a culture of rigorous testing and thorough API documentation.",
+      "On the Hyperion team I lead the modernisation of legacy pension administration systems on .NET, React, and Azure — raising engineering standards, driving cloud-native adoption, and delivering business-impacting features end-to-end. I authored the REST API standards now adopted company-wide, drove the move to event-driven architecture via Azure Service Bus, and led adoption of App Configuration, Function Apps, Key Vault, and Feature Flags. Beyond technical work, I mentor the team on modern React patterns and Cypress testing.",
+    takeawayLabel: "What this chapter is teaching me",
+    takeaway:
+      "the patience and precision needed to modernise legacy systems without breaking them — and how to build infrastructure (REST API standards, Feature Toggle Platform, CI/CD pipelines) that other teams across the company can build on.",
     icon: React.createElement(TbCurrencyPound),
     date: "2021",
   },
