@@ -25,10 +25,10 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         My name is Jake Ryu. I was born and raised in South Korea, where I began
-        my journey as a software developer. With 20+ years of experience in the
-        field, I have honed my skills and expertise across various technologies
-        and projects. After gaining six years of experience in Korea, I moved to
-        the UK to help build the local systems for{" "}
+        my journey as a software developer. With over 20 years of experience as
+        a software developer, I have honed my skills and expertise across
+        various technologies and projects. I later moved to the UK to help build
+        the local systems for{" "}
         <a
           className="italic font-medium"
           href="https://www.hyundai.com/uk/en.html"
@@ -44,8 +44,9 @@ export default function About() {
           target="_blank"
         >
           Barnett Waddingham
-        </a>
-        , a financial services company specializing in workplace pensions.
+        </a>{" "}
+        (part of Howden), a UK professional services consultancy specialising
+        in risk, pensions, investment, and insurance.
       </p>
 
       <p className="mb-3">
@@ -60,8 +61,11 @@ export default function About() {
       </p>
 
       <p className="mb-3">
-        When I&apos;m not coding, I enjoy watching English Premier League (EPL)
-        matches. I also love reading novels and self-improvement books.
+        When I&apos;m not coding, I enjoy long walks with audiobooks — usually
+        on investment, self-development, or fiction — and spend weekends working
+        on personal projects with my mix of AI coding assistants. I also love
+        travelling with my family and capturing those moments through my
+        cameras.
       </p>
     </motion.section>
   )
